@@ -2,6 +2,18 @@
 
 A lightweight Go HTTP server that wraps the [Genderize.io](https://genderize.io) API with processing logic and structured responses.
 
+## Live API
+
+- Base URL: https://hng14-stage0-gender-api-production.up.railway.app
+- Classify endpoint: https://hng14-stage0-gender-api-production.up.railway.app/api/classify?name=john
+- Health check: https://hng14-stage0-gender-api-production.up.railway.app/health
+
+Quick verification:
+```bash
+curl "https://hng14-stage0-gender-api-production.up.railway.app/health"
+curl "https://hng14-stage0-gender-api-production.up.railway.app/api/classify?name=john"
+```
+
 ## Endpoint
 
 ### `GET /api/classify?name={name}`
