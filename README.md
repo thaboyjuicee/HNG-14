@@ -1,4 +1,4 @@
-# Genderize API — Name Classifier
+# HNG-14 Stage 0: Gender Classification API
 
 A lightweight Go HTTP server that wraps the [Genderize.io](https://genderize.io) API with processing logic and structured responses.
 
